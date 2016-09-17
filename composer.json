@@ -1,0 +1,65 @@
+{
+    "name": "codelytv/php-bootstrap",
+    "description": "Starting point if you want to bootstrap a project in PHP.",
+    "version": "1.0.0",
+    "type": "project",
+    "keywords": [
+        "bootstrap",
+        "skeleton",
+        "kata",
+        "boilerplate"
+    ],
+    "homepage": "http://codely.tv",
+    "time": "2016-09-15",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Javier Ferrer",
+            "email": "javier.ferrer@codely.tv",
+            "homepage": "http://codely.tv",
+            "role": "Developer"
+        },
+        {
+            "name": "Rafa Gómez",
+            "email": "rafa.gomez@codely.tv",
+            "homepage": "http://codely.tv",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "jakub-onderka/php-parallel-lint": "^0.9",
+        "jakub-onderka/php-console-highlighter": "^0.3",
+        "phpunit/phpunit": "^5.5",
+        "symfony/var-dumper": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodelyTv\\PhpBootstrap\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CodelyTv\\PhpBootstrapTest\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "optimize-autoloader": true
+    },
+    "prefer-stable": true,
+    "scripts": {
+        "lint": [
+            "parallel-lint . --exclude vendor"
+        ],
+        "phpunit": [
+            "phpunit --configuration phpunit.xml"
+        ],
+        "test": [
+            "parallel-lint . --exclude vendor",
+            "phpunit --configuration phpunit.xml"
+        ]
+    }
+}

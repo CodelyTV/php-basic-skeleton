@@ -1,0 +1,29 @@
+<?php
+
+declare(strict_types = 1);
+
+namespace CodelyTv\PhpBootstrap;
+
+final class Codelyber
+{
+    /** string */
+    const GREETING = "CodelyTV";
+
+    /** @var string */
+    private $name;
+
+    public function __construct(string $a_name)
+    {
+        $this->name = $a_name;
+    }
+
+    public function name(): string
+    {
+        return $this->name;
+    }
+
+    public function greet(): string
+    {
+        return self::GREETING;
+    }
+}
