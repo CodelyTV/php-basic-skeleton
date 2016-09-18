@@ -1,0 +1,31 @@
+language: php
+
+sudo: false
+
+php:
+  - '7.0'
+
+
+## Cache composer
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+before_install:
+    - stty cols 120
+
+before_script:
+  - travis_retry composer self-update
+  - travis_retry composer update ${COMPOSER_FLAGS} --no-interaction --prefer-dist
+
+script:
+  - composer lint
+  - composer style
+  - composer phpunit
+  - vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover
+
+addons:
+    code_climate:
+        repo_token: e59094d28d3a03cedb906f90fd2a454e37282ff6065f61f33773922a6ccf8e56
+
+
