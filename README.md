@@ -1,9 +1,12 @@
 # PHP Bootstrap (base / project skeleton)
  
-[![Build Status](https://travis-ci.org/CodelyTV/php-bootstrap.svg?branch=master)](https://travis-ci.org/CodelyTV/php-bootstrap)
-[![Code Climate](https://codeclimate.com/github/CodelyTV/php-bootstrap/badges/gpa.svg)](https://codeclimate.com/github/CodelyTV/php-bootstrap)
-[![Test Coverage](https://codeclimate.com/github/CodelyTV/php-bootstrap/badges/coverage.svg)](https://codeclimate.com/github/CodelyTV/php-bootstrap/coverage)
-
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Software License][ico-license]](LICENSE.md)
+[![Build Status][ico-travis]][link-travis]
+[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
+[![Quality Score][ico-code-quality]][link-code-quality]
+[![Total Downloads][ico-downloads]][link-downloads]
+ 
 ## Introduction 
 
 This is a repository intended to serve as a starting point if you want to bootstrap a project in PHP.
@@ -47,6 +50,25 @@ It could be useful if you want to start from scratch a kata or a little exercise
 
 ## About
 
-This hopefully helpful utility has been developed by [CodelyTV](http://codely.tv/).
+This hopefully helpful utility has been developed by [CodelyTV][link-author] and [Contributors][link-contributors].
 
 We'll try to maintain this project as simple as possible, but Pull Requests are welcomed!
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+[ico-version]: https://img.shields.io/packagist/v/codelytv/php-bootstrap.svg?style=flat-square
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/CodelyTV/php-bootstrap/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/CodelyTV/php-bootstrap.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/CodelyTV/php-bootstrap.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/codelytv/php-bootstrap.svg?style=flat-square
+
+[link-packagist]: https://packagist.org/packages/codelytv/php-bootstrap
+[link-travis]: https://travis-ci.org/CodelyTV/php-bootstrap
+[link-scrutinizer]: https://scrutinizer-ci.com/g/CodelyTV/php-bootstrap/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/CodelyTV/php-bootstrap
+[link-downloads]: https://packagist.org/packages/codelytv/php-bootstrap
+[link-author]: https://github.com/CodelyTV
+[link-contributors]: ../../contributors
