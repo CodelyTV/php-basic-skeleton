@@ -12,9 +12,9 @@ final class Codelyber
     /** @var string */
     private $name;
 
-    public function __construct(string $a_name)
+    public function __construct(string $aName)
     {
-        $this->name = $a_name;
+        $this->name = $aName;
     }
 
     public function name(): string

@@ -32,6 +32,7 @@
     "require-dev": {
         "jakub-onderka/php-parallel-lint": "^0.9",
         "jakub-onderka/php-console-highlighter": "^0.3",
+        "squizlabs/php_codesniffer": "^2.7",
         "phpunit/phpunit": "^5.5",
         "symfony/var-dumper": "^3.1"
     },
@@ -51,17 +52,14 @@
     },
     "prefer-stable": true,
     "scripts": {
-        "post-create-project-cmd": [
-            "composer update"
-        ],
-        "lint": [
-            "parallel-lint . --exclude vendor"
-        ],
-        "phpunit": [
-            "phpunit --configuration phpunit.xml"
-        ],
+        "post-create-project-cmd": "composer update",
+        "lint": "parallel-lint . --exclude vendor",
+        "style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+        "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+        "phpunit": "phpunit --configuration phpunit.xml",
         "test": [
             "parallel-lint . --exclude vendor",
+            "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
             "phpunit --configuration phpunit.xml"
         ]
     }

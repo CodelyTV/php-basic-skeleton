@@ -24,7 +24,7 @@ final class CodelyberTest extends TestCase
     }
 
     /** @test */
-    public function should_say_hello_when_greeting()
+    public function shouldSayHelloWhenGreeting()
     {
         $this->givenACodelyber();
 
