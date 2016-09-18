@@ -52,7 +52,6 @@
     },
     "prefer-stable": true,
     "scripts": {
-        "post-create-project-cmd": "composer update",
         "lint": "parallel-lint . --exclude vendor",
         "style": "phpcs -p --standard=PSR2 src tests",
         "fix-style": "phpcbf -p --standard=PSR2 src tests",
