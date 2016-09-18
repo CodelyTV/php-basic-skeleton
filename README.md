@@ -1,7 +1,7 @@
 # PHP Bootstrap (base / project skeleton)
  
 [![Latest Version on Packagist][ico-version]][link-packagist]
-[![Software License][ico-license]](LICENSE.md)
+[![Software License][ico-license]][link-license]
 [![Build Status][ico-travis]][link-travis]
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
@@ -10,7 +10,17 @@
 
 This is a repository intended to serve as a starting point if you want to bootstrap a project in PHP.
  
-It could be useful if you want to start from scratch a kata or a little exercise or project.
+It could be useful if you want to start from scratch a kata or a little exercise or project. The idea is that you don't have to worry about the boilerplate, just run `composer create-project codelytv/php-bootstrap your-kata-name` and there you go:
+* Latest versions of PHP and PHPUnit in order to practice with them
+* Best practices applied:
+  * [`README.md`][link-readme] (badges included)
+  * [`LICENSE`][link-license]
+  * [`composer.json`][link-composer-json]
+  * [`phpunit.xml`][link-phpunit]
+  * [`.editorconfig`][link-editorconfig]
+  * [`.travis.yml`][link-travis]
+  * [`.scrutinizer.yml`][link-scrutinizer]
+* Some useful resources to start coding
 
 ## How To Start
 
@@ -44,20 +54,20 @@ It could be useful if you want to start from scratch a kata or a little exercise
 * [Martin Fowler Refactorings catalog](http://refactoring.com/catalog/)
 * [CodelyTV Refactoring videos (Spanish)](http://codely.tv/tag/refactoring/)
 
-# Other programming languages
+## Other programming languages
 
 * [PHP](https://github.com/CodelyTV/php-bootstrap)
 * [Scala](https://github.com/CodelyTV/scala_bootstrap)
 
 ## About
 
-This hopefully helpful utility has been developed by [CodelyTV][link-author] and [Contributors][link-contributors].
+This hopefully helpful utility has been developed by [CodelyTV][link-author] and [contributors][link-contributors].
 
 We'll try to maintain this project as simple as possible, but Pull Requests are welcomed!
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File][link-license] for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/codelytv/php-bootstrap.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
@@ -71,3 +81,10 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-downloads]: https://packagist.org/packages/codelytv/php-bootstrap
 [link-author]: https://github.com/CodelyTV
 [link-contributors]: ../../contributors
+[link-composer-json]: composer.json
+[link-readme]: README.md
+[link-license]: LICENSE.md
+[link-phpunit]: phpunit.xml
+[link-editorconfig]: .editorconfig    
+[link-travis]: .travis.yml           
+[link-scrutinizer]: .scrutinizer.yml  
