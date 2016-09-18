@@ -15,11 +15,13 @@ It could be useful if you want to start from scratch a kata or a little exercise
 
 ## How To Start
 
-1. Clone this repository `git clone https://github.com/CodelyTV/php-bootstrap`.
-2. Install all the [Composer](https://getcomposer.org/) dependencies with `composer install`.
-3. Run the [PHP Paralel Lint](https://github.com/JakubOnderka/PHP-Parallel-Lint) with `composer lint`.
-4. Run the [PHP Unit](https://phpunit.de/) test with `composer phpunit` (you can also run both checks with the `composer test` command).
-5. Start your project! 
+0. If you don't have it already, [install Composer](https://getcomposer.org/download/).
+1. Create your project based on this bootstrap repo: `composer create-project codelytv/php-bootstrap your-kata-name`.
+2. Run all the checks: `composer test`. This will do some checks that you can perform with isolated commands: 
+    1. [PHP Parallel Lint](https://github.com/JakubOnderka/PHP-Parallel-Lint): `composer lint`.
+    2. [PHP Style Check](https://github.com/squizlabs/PHP_CodeSniffer): `composer style`. If you want to fix style issues automatically: `composer fix-style`.
+    3. [PHP Unit](https://phpunit.de/): `composer phpunit`.
+3. Start coding! 
 
 ## Helpful resources
 
