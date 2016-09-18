@@ -17,8 +17,9 @@ It could be useful if you want to start from scratch a kata or a little exercise
   * [`LICENSE`][link-license]
   * [`composer.json`][link-composer-json]
   * [`phpunit.xml`][link-phpunit]
+  * [`.gitignore`][link-gitignore]
   * [`.editorconfig`][link-editorconfig]
-  * [`.travis.yml`][link-travis]
+  * [`.travis.yml`][link-travis-yml]
   * [`.scrutinizer.yml`][link-scrutinizer]
 * Some useful resources to start coding
 
@@ -76,15 +77,16 @@ The MIT License (MIT). Please see [License File][link-license] for more informat
 [ico-downloads]: https://img.shields.io/packagist/dt/codelytv/php-bootstrap.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/codelytv/php-bootstrap
+[link-license]: LICENSE
 [link-travis]: https://travis-ci.org/CodelyTV/php-bootstrap
 [link-code-quality]: https://scrutinizer-ci.com/g/CodelyTV/php-bootstrap
 [link-downloads]: https://packagist.org/packages/codelytv/php-bootstrap
+[link-readme]: README.md
+[link-composer-json]: composer.json
+[link-phpunit]: phpunit.xml
+[link-gitignore]: .gitignore
+[link-editorconfig]: .editorconfig    
+[link-travis-yml]: .travis.yml           
+[link-scrutinizer]: .scrutinizer.yml  
 [link-author]: https://github.com/CodelyTV
 [link-contributors]: ../../contributors
-[link-composer-json]: composer.json
-[link-readme]: README.md
-[link-license]: LICENSE
-[link-phpunit]: phpunit.xml
-[link-editorconfig]: .editorconfig    
-[link-travis]: .travis.yml           
-[link-scrutinizer]: .scrutinizer.yml  
