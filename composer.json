@@ -1,12 +1,13 @@
 {
     "name": "codelytv/php-bootstrap",
     "description": "Starting point if you want to bootstrap a project in PHP.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "type": "project",
     "keywords": [
         "bootstrap",
         "skeleton",
         "kata",
+        "TDD",
         "boilerplate"
     ],
     "homepage": "http://codely.tv",
