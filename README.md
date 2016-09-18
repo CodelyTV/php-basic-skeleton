@@ -83,7 +83,7 @@ The MIT License (MIT). Please see [License File][link-license] for more informat
 [link-contributors]: ../../contributors
 [link-composer-json]: composer.json
 [link-readme]: README.md
-[link-license]: LICENSE.md
+[link-license]: LICENSE
 [link-phpunit]: phpunit.xml
 [link-editorconfig]: .editorconfig    
 [link-travis]: .travis.yml           
