@@ -1,7 +1,7 @@
 {
     "name": "codelytv/php-bootstrap",
     "description": "Starting point if you want to bootstrap a project in PHP.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "type": "project",
     "keywords": [
         "bootstrap",
@@ -10,7 +10,7 @@
         "boilerplate"
     ],
     "homepage": "http://codely.tv",
-    "time": "2016-09-15",
+    "time": "2016-09-18",
     "license": "MIT",
     "authors": [
         {
