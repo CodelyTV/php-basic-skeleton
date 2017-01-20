@@ -1,7 +1,6 @@
 {
     "name": "codelytv/php-bootstrap",
     "description": "Starting point if you want to bootstrap a project in PHP.",
-    "version": "1.0.6",
     "type": "project",
     "keywords": [
         "bootstrap",
@@ -34,8 +33,8 @@
         "jakub-onderka/php-parallel-lint": "^0.9",
         "jakub-onderka/php-console-highlighter": "^0.3",
         "squizlabs/php_codesniffer": "^2.7",
-        "phpunit/phpunit": "^5.5",
-        "symfony/var-dumper": "^3.1"
+        "phpunit/phpunit": "^5.7",
+        "symfony/var-dumper": "^3.2"
     },
     "autoload": {
         "psr-4": {
