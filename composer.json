@@ -1,6 +1,6 @@
 {
     "name": "codelytv/php-bootstrap",
-    "description": "Starting point if you want to bootstrap a project in PHP.",
+    "description": "Starting point if you want to bootstrap a project in PHP following best practices.",
     "type": "project",
     "keywords": [
         "bootstrap",
@@ -9,20 +9,20 @@
         "TDD",
         "boilerplate"
     ],
-    "homepage": "http://codely.tv",
-    "time": "2016-09-18",
+    "homepage": "https://codely.tv",
+    "time": "2018-07-18",
     "license": "MIT",
     "authors": [
         {
             "name": "Javier Ferrer",
             "email": "javier.ferrer@codely.tv",
-            "homepage": "http://codely.tv",
+            "homepage": "https://codely.tv",
             "role": "Developer"
         },
         {
             "name": "Rafa Gómez",
             "email": "rafa.gomez@codely.tv",
-            "homepage": "http://codely.tv",
+            "homepage": "https://codely.tv",
             "role": "Developer"
         }
     ],

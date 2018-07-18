@@ -6,7 +6,7 @@
         beStrictAboutTestSize="true"
         beStrictAboutChangesToGlobalState="true">
     <testsuites>
-        <testsuite name="finderKata">
+        <testsuite name="phpBootstrap">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

@@ -7,7 +7,7 @@ namespace CodelyTv\PhpBootstrap;
 final class Codelyber
 {
     /** string */
-    const GREETING = "CodelyTV";
+    private const GREETING = "CodelyTV";
 
     /** @var string */
     private $name;
