@@ -3,7 +3,7 @@
         colors="true"
         beStrictAboutTestsThatDoNotTestAnything="true"
         beStrictAboutOutputDuringTests="true"
-        beStrictAboutTestSize="true"
+        enforceTimeLimit="true"
         beStrictAboutChangesToGlobalState="true">
     <testsuites>
         <testsuite name="phpBootstrap">
