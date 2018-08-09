@@ -25,7 +25,8 @@ It could be useful if you want to start from scratch a kata or a little exercise
 
 ## How To Start
 
-You have 2 different alternatives: Using our [Packagist project](https://packagist.org/packages/codelytv/php-bootstrap) with Composer, or manually cloning [this repo](https://github.com/CodelyTV/php-bootstrap/):
+You have 3 different alternatives: Using our [Packagist project](https://packagist.org/packages/codelytv/php-bootstrap) with Composer, manually cloning [this repo](https://github.com/CodelyTV/php-bootstrap/)
+or using Docker:
 
 ### Using Composer
 
@@ -66,6 +67,25 @@ Just in case you prefer to avoid dealing with `composer create-project`, you can
     5. Add your remote repository: `git remote add origin git@github.com:your-username/your-project-name`
     6. Upload your local commits to the new remote repo: `git push -u origin master`
 7. Start coding!
+
+### Using Docker
+
+You can avoid the need of a local PHP installation using Docker.
+
+1. You will need [Docker installed](https://docs.docker.com/install/) in your computer.
+2. [Download](https://github.com/CodelyTV/php-bootstrap/archive/master.zip) this repository and unzip it in your project directory.
+3. Run the script `up.sh` available in the project's root folder. The first time it will build the Docker image and download the dependencies, and you will end up in a container sharing the project folder with your local machine.
+4. Run all the checks: `composer test`. This will do some checks that you can perform with isolated commands: 
+    1. [PHP Parallel Lint](https://github.com/JakubOnderka/PHP-Parallel-Lint): `composer lint`.
+    2. [PHP Style Check](https://github.com/squizlabs/PHP_CodeSniffer): `composer style`. If you want to fix style issues automatically: `composer fix-style`.
+    3. [PHP Unit](https://phpunit.de/): `composer phpunit`.
+5. Create your own repository:
+    1. Initialize your own Git repository: `git init`
+    2. Add the bootstrap files: `git add .`
+    3. Commit: `git commit -m "Initial commit with project boilerplate based on https://github.com/CodelyTV/php-bootstrap"`
+    4. Add your remote repository: `git remote add origin git@github.com:your-username/your-project-name`
+    5. Upload your local commits to the new remote repo: `git push -u origin master`
+6. Start coding! 
 
 ## Helpful resources
 
