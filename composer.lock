@@ -1510,16 +1510,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.8.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "3296adf6a6454a050679cde90f95350ad604b171"
+                "reference": "7b4aab9743c30be783b73de055d24a39cf4b954f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/3296adf6a6454a050679cde90f95350ad604b171",
-                "reference": "3296adf6a6454a050679cde90f95350ad604b171",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7b4aab9743c30be783b73de055d24a39cf4b954f",
+                "reference": "7b4aab9743c30be783b73de055d24a39cf4b954f",
                 "shasum": ""
             },
             "require": {
@@ -1531,7 +1531,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.8-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -1565,20 +1565,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-04-26T10:06:28+00:00"
+            "time": "2019-11-27T14:18:11+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.8.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "a4576e282d782ad82397f3e4ec1df8e0f0cafb46"
+                "reference": "66fea50f6cb37a35eea048d75a7d99a45b586038"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/a4576e282d782ad82397f3e4ec1df8e0f0cafb46",
-                "reference": "a4576e282d782ad82397f3e4ec1df8e0f0cafb46",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/66fea50f6cb37a35eea048d75a7d99a45b586038",
+                "reference": "66fea50f6cb37a35eea048d75a7d99a45b586038",
                 "shasum": ""
             },
             "require": {
@@ -1587,7 +1587,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.8-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -1620,20 +1620,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-04-26T10:06:28+00:00"
+            "time": "2019-11-27T13:56:44+00:00"
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v4.1.1",
+            "version": "v4.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "b2eebaec085d1f2cafbad7644733d494a3bbbc9b"
+                "reference": "be330f919bdb395d1e0c3f2bfb8948512d6bdd99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/b2eebaec085d1f2cafbad7644733d494a3bbbc9b",
-                "reference": "b2eebaec085d1f2cafbad7644733d494a3bbbc9b",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/be330f919bdb395d1e0c3f2bfb8948512d6bdd99",
+                "reference": "be330f919bdb395d1e0c3f2bfb8948512d6bdd99",
                 "shasum": ""
             },
             "require": {
@@ -1647,8 +1647,9 @@
             },
             "require-dev": {
                 "ext-iconv": "*",
-                "symfony/process": "~3.4|~4.0",
-                "twig/twig": "~1.34|~2.4"
+                "symfony/console": "^3.4|^4.0|^5.0",
+                "symfony/process": "^4.4|^5.0",
+                "twig/twig": "^1.34|^2.4|^3.0"
             },
             "suggest": {
                 "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
@@ -1661,7 +1662,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.1-dev"
+                    "dev-master": "4.4-dev"
                 }
             },
             "autoload": {
@@ -1695,7 +1696,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2018-06-23T12:23:56+00:00"
+            "time": "2019-12-18T13:41:29+00:00"
         },
         {
             "name": "theseer/tokenizer",
