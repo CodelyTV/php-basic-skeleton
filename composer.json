@@ -1,6 +1,6 @@
 {
     "name": "codelytv/php-bootstrap",
-    "description": "Starting point if you want to bootstrap a project in PHP following best practices.",
+    "description": "Starting point if you want to bootstrap a project in PHP.",
     "type": "project",
     "keywords": [
         "bootstrap",
@@ -9,29 +9,33 @@
         "TDD",
         "boilerplate"
     ],
-    "homepage": "https://codely.tv",
+    "homepage": "http://codely.tv",
+    "time": "2016-09-18",
     "license": "MIT",
     "authors": [
         {
             "name": "Javier Ferrer",
-            "homepage": "https://codely.tv",
+            "email": "javier.ferrer@codely.tv",
+            "homepage": "http://codely.tv",
             "role": "Developer"
         },
         {
             "name": "Rafa Gómez",
-            "homepage": "https://codely.tv",
+            "email": "rafa.gomez@codely.tv",
+            "homepage": "http://codely.tv",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": ">=7.2"
+        "php": "^7.0"
     },
     "require-dev": {
-        "jakub-onderka/php-parallel-lint": "^1.0",
-        "jakub-onderka/php-console-highlighter": "^0.4",
-        "squizlabs/php_codesniffer": "^3.5",
-        "phpunit/phpunit": "^7.2",
-        "symfony/var-dumper": "^4.4"
+        "php-parallel-lint/php-parallel-lint": "^0.9",
+        "php-parallel-lint/php-console-highlighter": "^0.3",
+        "php-parallel-lint/php-console-color": "^0.3",
+        "squizlabs/php_codesniffer": "^2.7",
+        "phpunit/phpunit": "~7.0",
+        "symfony/var-dumper": "^3.2"
     },
     "autoload": {
         "psr-4": {
