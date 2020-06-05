@@ -1,6 +1,6 @@
 {
     "name": "codelytv/php-bootstrap",
-    "description": "Starting point if you want to bootstrap a project in PHP.",
+    "description": "Starting point if you want to bootstrap a project in PHP following best practices.",
     "type": "project",
     "keywords": [
         "bootstrap",
