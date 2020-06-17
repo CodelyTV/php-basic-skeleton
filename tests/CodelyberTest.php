@@ -33,6 +33,18 @@ final class CodelyberTest extends TestCase
         $this->thenItShouldSayCodelyTv();
     }
 
+    /** @test */
+    public function checkAsserts()
+    {
+        $oldCodelyber = new Codelyber("David");
+        $newCodelyber = new Codelyber("David");
+
+        $this->assertEquals($oldCodelyber,$newCodelyber);
+        $this->assertSame($newCodelyber,$newCodelyber);
+        $this->assertClassHasAttribute('name',Codelyber::class);
+        $this->assertInstanceOf(Codelyber::class,$newCodelyber);
+    }
+
     private function givenACodelyber()
     {
         $this->codelyber = new Codelyber("Javi");
