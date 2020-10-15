@@ -115,4 +115,3 @@ The MIT License (MIT). Please see [License File][link-license] for more informat
 [link-editorconfig]: .editorconfig    
 [link-scrutinizer]: .scrutinizer.yml  
 [link-author]: https://github.com/CodelyTV
-[link-contributors]: ../../contributors
