@@ -1,20 +1,17 @@
 <?php
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
-namespace CodelyTv\PhpBootstrap;
+namespace CodelyTv;
 
 final class Codelyber
 {
-    /** string */
     private const GREETING = "CodelyTV";
+    private string $name;
 
-    /** @var string */
-    private $name;
-
-    public function __construct(string $aName)
+    public function __construct(string $name)
     {
-        $this->name = $aName;
+        $this->name = $name;
     }
 
     public function name(): string

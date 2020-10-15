@@ -1,30 +1,27 @@
 <?php
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
-namespace CodelyTv\PhpBootstrapTest;
+namespace CodelyTv\Tests;
 
-use CodelyTv\PhpBootstrap\Codelyber;
+use CodelyTv\Codelyber;
 use PHPUnit\Framework\TestCase;
 
 final class CodelyberTest extends TestCase
 {
-    /** @var Codelyber */
-    private $codelyber;
+    private ?Codelyber $codelyber;
+    private ?string    $greeting;
 
-    /** @var string */
-    private $greeting;
-
-    public function tearDown()
+    public function tearDown(): void
     {
         parent::tearDown();
 
         $this->codelyber = null;
-        $this->greeting = null;
+        $this->greeting  = null;
     }
 
     /** @test */
-    public function shouldSayHelloWhenGreeting()
+    public function shouldSayHelloWhenGreeting(): void
     {
         $this->givenACodelyber();
 
@@ -33,18 +30,18 @@ final class CodelyberTest extends TestCase
         $this->thenItShouldSayCodelyTv();
     }
 
-    private function givenACodelyber()
+    private function givenACodelyber(): void
     {
         $this->codelyber = new Codelyber("Javi");
     }
 
-    private function whenItGreets()
+    private function whenItGreets(): void
     {
         $this->greeting = $this->codelyber->greet();
     }
 
-    private function thenItShouldSayCodelyTv()
+    private function thenItShouldSayCodelyTv(): void
     {
-        $this->assertEquals("CodelyTV", $this->greeting);
+        self::assertEquals("CodelyTV", $this->greeting);
     }
 }
