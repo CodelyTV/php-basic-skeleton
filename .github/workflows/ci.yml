@@ -26,7 +26,7 @@ jobs:
         run: composer lint
 
       - name: 🏁 Static analysis
-        run: composer static-analysis
+        run: composer static-analysis --output-format=github --shepherd
 
       - name: ✅ Run the tests
         run: composer test
