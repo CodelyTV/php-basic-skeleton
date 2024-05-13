@@ -15,8 +15,9 @@
     "php": "^8.3"
   },
   "require-dev": {
-    "phpunit/phpunit": "^11.1",
-    "codelytv/coding-style": "^1.2"
+    "phpunit/phpunit": "^10",
+    "codelytv/coding-style": "^1.2",
+    "vimeo/psalm": "^5.24"
   },
   "autoload": {
     "psr-4": {
@@ -33,6 +34,7 @@
   "scripts": {
     "test": "phpunit --configuration phpunit.xml",
     "lint": "ecs check",
-    "lint:fix": "ecs check --fix"
+    "lint:fix": "ecs check --fix",
+    "static-analysis": "psalm"
   }
 }
