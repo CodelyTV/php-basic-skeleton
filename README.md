@@ -81,16 +81,6 @@ This very same basic skeleton philosophy implemented in other programming langua
 - [🧬 Scala Basic Skeleton](https://github.com/CodelyTV/scala-basic-skeleton)
 - [🦈 C# Basic Skeleton](https://github.com/CodelyTV/csharp-basic-skeleton)
 
-## About
-
-This hopefully helpful utility has been developed by [CodelyTV][link-author] and [contributors](https://github.com/CodelyTV/php-basic-skeleton/graphs/contributors).
-
-We'll try to maintain this project as simple as possible, but Pull Requests are welcomed!
-
-## License
-
-The MIT License (MIT). Please see [License File][link-license] for more information.
-
 [ico-version]: https://img.shields.io/packagist/v/codelytv/php-bootstrap.svg?style=flat-square
 
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
@@ -118,5 +108,3 @@ The MIT License (MIT). Please see [License File][link-license] for more informat
 [link-gitignore]: .gitignore
 
 [link-editorconfig]: .editorconfig
-
-[link-author]: https://github.com/CodelyTV
