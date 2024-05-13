@@ -3,30 +3,24 @@ name: CI
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
 
 jobs:
   build:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest, macOS-latest]
-        php-versions: ['7.4', '8.0']
+    runs-on: ubuntu-latest
 
-    name: Test on ${{ matrix.os }} with PHP ${{ matrix.php-versions }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-      - name: Setup PHP
-        uses: shivammathur/setup-php@v1
+      - name: 🐘 Setup PHP
+        uses: shivammathur/setup-php@v2
         with:
-          php-version: ${{ matrix.php-versions }}
+          php-version: '8.3'
           coverage: none
 
-      - name: Install dependencies
+      - name: ⬇️ Install dependencies
         run: composer install --ignore-platform-reqs
 
-      - name: Run the tests
+      - name: ✅ Run the tests
         run: composer phpunit

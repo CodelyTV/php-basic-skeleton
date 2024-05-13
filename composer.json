@@ -3,20 +3,19 @@
   "description": "Starting point if you want to bootstrap a project in PHP following best practices.",
   "type": "project",
   "keywords": ["bootstrap", "skeleton", "kata", "TDD", "boilerplate"],
-  "homepage": "https://codely.tv",
+  "homepage": "https://codely.com",
   "license": "MIT",
   "authors": [
     {
       "name": "CodelyTV",
-      "homepage": "https://codely.tv"
+      "homepage": "https://codely.com"
     }
   ],
   "require": {
-    "php": "^7.4||^8.0"
+    "php": "^8.3"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^3.5",
-    "phpunit/phpunit": "^9.4"
+    "phpunit/phpunit": "^11.1"
   },
   "autoload": {
     "psr-4": {
@@ -29,9 +28,6 @@
     }
   },
   "minimum-stability": "stable",
-  "config": {
-    "optimize-autoloader": true
-  },
   "prefer-stable": true,
   "scripts": {
     "style": "phpcs -p --standard=PSR2 src tests",
