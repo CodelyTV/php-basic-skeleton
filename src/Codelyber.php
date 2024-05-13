@@ -6,7 +6,8 @@ namespace CodelyTv;
 
 final class Codelyber
 {
-    private const GREETING = "CodelyTV";
+    private const string GREETING = "CodelyTV";
+
     private string $name;
 
     public function __construct(string $name)
