@@ -22,5 +22,8 @@ jobs:
       - name: ⬇️ Install dependencies
         run: composer install --ignore-platform-reqs
 
+      - name: 💅 Lint
+        run: composer lint
+
       - name: ✅ Run the tests
-        run: composer phpunit
+        run: composer test

@@ -15,7 +15,8 @@
     "php": "^8.3"
   },
   "require-dev": {
-    "phpunit/phpunit": "^11.1"
+    "phpunit/phpunit": "^11.1",
+    "codelytv/coding-style": "^1.2"
   },
   "autoload": {
     "psr-4": {
@@ -30,12 +31,8 @@
   "minimum-stability": "stable",
   "prefer-stable": true,
   "scripts": {
-    "style": "phpcs -p --standard=PSR2 src tests",
-    "fix-style": "phpcbf -p --standard=PSR2 src tests",
-    "phpunit": "phpunit --configuration phpunit.xml",
-    "test": [
-      "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
-      "phpunit --configuration phpunit.xml"
-    ]
+    "test": "phpunit --configuration phpunit.xml",
+    "lint": "ecs check",
+    "lint:fix": "ecs check --fix"
   }
 }

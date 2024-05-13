@@ -10,10 +10,10 @@ use PHPUnit\Framework\TestCase;
 
 final class CodelyberTest extends TestCase
 {
-    #[Test] public function itShouldSayHelloWhenGreeting(): void
-    {
-        $codelyber = new Codelyber("Javi");
+	#[Test] public function itShouldSayHelloWhenGreeting(): void
+	{
+		$codelyber = new Codelyber('Javi');
 
-        $this->assertEquals("CodelyTV", $codelyber->greet());
-    }
+		$this->assertEquals('CodelyTV', $codelyber->greet());
+	}
 }
