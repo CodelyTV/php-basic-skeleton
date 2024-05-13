@@ -25,5 +25,8 @@ jobs:
       - name: 💅 Lint
         run: composer lint
 
+      - name: 🏁 Static analysis
+        run: composer static-analysis
+
       - name: ✅ Run the tests
         run: composer test
